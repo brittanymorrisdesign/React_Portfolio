@@ -1,5 +1,5 @@
 import React from "react";
-import "../nav/nav_styles"
+import "./nav_styles"
 
 //Navigation 
 

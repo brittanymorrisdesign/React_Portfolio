@@ -1,5 +1,5 @@
 import React from "react";
-import "../contact/contact_styles"
+import "./contact_styles"
 
 // Contact
 
@@ -24,7 +24,7 @@ function Contact() {
                 <a className="d-block" href="mailto:brittanymorrisdesign@gmail.com">brittanymorrisdesign@gmail.com</a>
             </div>
             <div className="col-lg-4 mr-auto text-center">
-                <img src="./assets/img/portfolio/thumbnails/icons-07.png" href="https://www.linkedin.com/in/brittany-morris-25600b49" alt="icons" className="responsive"><br /> 
+                <img src="./assets/img/portfolio/thumbnails/icons-07.png" href="https://www.linkedin.com/in/brittany-morris-25600b49" alt="icons" className="responsive"/><br /> 
                 <a href="https://www.linkedin.com/in/brittany-morris-25600b49">LinkedIn</a>
             </div>
         </div>

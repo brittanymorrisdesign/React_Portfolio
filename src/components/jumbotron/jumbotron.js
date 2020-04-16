@@ -1,5 +1,5 @@
 import React from "react";
-import "../jumbotron/jumbotron_styles"
+import "./jumbotron_styles"
 
 // Masthead
 

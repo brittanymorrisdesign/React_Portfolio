@@ -1,5 +1,5 @@
 import React from "react";
-import "../about/about_styles"
+import "./about_styles"
 
 // About Me 
 

@@ -1,12 +1,10 @@
 import React from "react";
-import "../projects/projects_styles"
+import "./projects_styles"
 
 // Projects
 
 function Nav() {
     return (
-        <section id="portfolio">
-        <div className="container-fluid p-0">
             <div className="row no-gutters">
 
                 <div className="col-lg-4 col-sm-6">
@@ -220,8 +218,6 @@ function Nav() {
                     </div>
                 </div>
             </div>
-      </section>
-
        
         );
 }
