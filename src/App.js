@@ -6,7 +6,6 @@ import Projects from "./components/projects/projects";
 import Contact from "./components/contact/contact";
 import "./App.css"
 
-
 function App() {
   return (
     <div>
