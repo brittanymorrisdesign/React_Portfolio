@@ -1,5 +1,4 @@
 import React from "react";
-import "./about_styles"
 
 // About Me 
 
