@@ -1,4 +1,4 @@
-  header.masthead h1 {
+    header.masthead h1 {
     font-size: 2.25rem;
   }
   @media (min-width: 992px) {
@@ -21,11 +21,18 @@
     }
   }
   
+  #portfolioBtn:focus, .btn:active {
+    box-shadow: none; /* Removes blue halo */
+  }
   
-  
-  
-  
-  
+  #portfolioBtn {
+    background-color: 0;
+    border-color: #408eff;
+    cursor: pointer;/* Pointer/hand icon */
+    outline: none;
+    color:white;
+    border-width: 2px;
+  }
   
   .text-white-75 {
     color: rgba(255, 255, 255, 0.75);
