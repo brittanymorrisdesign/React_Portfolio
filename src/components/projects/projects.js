@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./projects_styles.css"
 // Projects
 
 function Nav() {

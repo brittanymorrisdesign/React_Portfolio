@@ -4,6 +4,8 @@ import Jumbotron from "./components/jumbotron/jumbotron";
 import About from "./components/about/about"; 
 import Projects from "./components/projects/projects";
 import Contact from "./components/contact/contact";
+import "./App.css"
+
 
 function App() {
   return (
