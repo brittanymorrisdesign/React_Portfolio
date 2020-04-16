@@ -4,6 +4,7 @@ import Jumbotron from "./components/jumbotron/jumbotron";
 import About from "./components/about/about"; 
 import Projects from "./components/projects/projects";
 import Contact from "./components/contact/contact";
+import Services from "./components/services/services"
 import "./App.css"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Nav />
     <Jumbotron/>
     <About />
+    <Services />
     <Projects />
     <Contact />
     </div>

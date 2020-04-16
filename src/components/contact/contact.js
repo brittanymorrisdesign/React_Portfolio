@@ -15,15 +15,15 @@ function Contact() {
                 </div>
                 <div className="row">           
             <div className="col-lg-4 ml-auto text-center mb-3 mb-lg-0">
-                <img src="/src/assets/img/portfolio/thumbnails/icons-08.png" alt="icons" className="responsive" href="https://github.com/brittanymorrisdesign"/><br /> 
+                <img src="./assets/img/portfolio/thumbnails/icons-08.png" alt="icons" className="responsive" href="https://github.com/brittanymorrisdesign"/><br /> 
                 <a href="https://github.com/brittanymorrisdesign">Github</a>
             </div>
             <div className="col-lg-4 mr-auto text-center">
-                <img src="/src/assets/img/portfolio/thumbnails/icons-04.png" alt="icons" className="responsive" />
+                <img src="./assets/img/portfolio/thumbnails/icons-04.png" alt="icons" className="responsive" />
                 <a className="d-block" href="mailto:brittanymorrisdesign@gmail.com">brittanymorrisdesign@gmail.com</a>
             </div>
             <div className="col-lg-4 mr-auto text-center">
-                <img src="/public/assets/img/portfolio/thumbnails/icons-07.png" href="https://www.linkedin.com/in/brittany-morris-25600b49" alt="icons" className="responsive"/><br /> 
+                <img src="./assets/img/portfolio/thumbnails/icons-07.png" href="https://www.linkedin.com/in/brittany-morris-25600b49" alt="icons" className="responsive"/><br /> 
                 <a href="https://www.linkedin.com/in/brittany-morris-25600b49">LinkedIn</a>
             </div>
         </div>
