@@ -1,7 +1,4 @@
-/*!
- * Start Bootstrap - Creative v6.0.1
- */
-(function($) {
+ (function($) {
   // Start of use strict
 
   // Smooth scrolling using jQuery easing

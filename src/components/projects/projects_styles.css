@@ -1,16 +1,3 @@
-#portfolioBtn:focus, .btn:active {
-    box-shadow: none; /* Removes blue halo */
-  }
-  
-  #portfolioBtn {
-    background-color: 0;
-    border-color: #408eff;
-    cursor: pointer;/* Pointer/hand icon */
-    outline: none;
-    color:white;
-    border-width: 2px;
-  }
-
   /* Portfolio Images */
 .card {
     display: inline-block;
