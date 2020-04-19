@@ -1,11 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./nav_styles.css"
+
 
 //Navigation 
 
 function Nav() {
-    return (
-<nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+  const [header, setHeader] = useState("nav");
+
+  const listenScrollEvent = event => {
+    if (window.scrollY < 73) {
+      return setHeader("nav");
+    } else if (window.scrollY > 100) {
+      return setHeader("nav2");
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+
+    return () => window.removeEventListener("scroll", listenScrollEvent);
+  }, []);
+
+  return (
+    <header className={header}>
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div className="container">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">Brittany Morris</a><button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
@@ -18,7 +36,9 @@ function Nav() {
         </div>
     </div>
 </nav>
+</header>
 );
 }
 
 export default Nav;
+
