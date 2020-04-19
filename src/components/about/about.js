@@ -4,7 +4,7 @@ import "./about_styles.css"
 
 function About() {
     return (
-        <section className="page-section bg-primary" id="about">
+        <section className="page-section-about bg-primary" id="about">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-8 text-center">

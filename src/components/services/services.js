@@ -5,7 +5,7 @@ import "./services-styles.css"
 
 function Services() {
     return (
-<section className="page-section" id="services">
+<section className="page-section-services" id="services">
     <div className="container">
         <h2 className="text-center mt-0">Services & Portfolio</h2>
         <hr className="divider my-4" />
