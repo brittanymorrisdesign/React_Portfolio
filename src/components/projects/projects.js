@@ -4,6 +4,7 @@ import "./projects_styles.css"
 
 function Nav() {
     return (
+      <section className="page-section bg-primary" id="portfolio">
             <div className="row no-gutters">
 
                 <div className="col-lg-4 col-sm-6">
@@ -217,7 +218,7 @@ function Nav() {
                     </div>
                 </div>
             </div>
-       
+          </section>
         );
 }
 
